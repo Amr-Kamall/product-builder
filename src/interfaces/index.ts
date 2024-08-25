@@ -13,12 +13,12 @@ export interface IProduct {
 
 export interface Iinputs {
   id: string;
-  name: string;
+  name: "title" | "description" | "imageUrl" | "price";
   type: string;
   label: string;
 }
-export interface Icategories{
-  id:string;
-  name:string;
-  imageUrl:string;
+export interface Icategories {
+  id: string;
+  name: string;
+  imageUrl: string;
 }
