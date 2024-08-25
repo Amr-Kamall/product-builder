@@ -57,7 +57,7 @@ const ProductCart = ({
         ))}
       </div>
       <div className="flex justify-between items-center">
-        <span>${price}</span>
+        <span className="text-md font-semibold">${price}</span>
         <img
           className="rounded-full w-10 h-10 object-cover"
           alt={category.name}
